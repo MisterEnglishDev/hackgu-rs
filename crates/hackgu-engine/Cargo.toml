@@ -1,0 +1,7 @@
+[package]
+name = "hackgu-engine"
+version = "0.1.0"
+edition = "2021"
+description = "Decompiled CyberConnect2 .hack//G.U. Engine Classes in Pure Rust"
+
+[dependencies]

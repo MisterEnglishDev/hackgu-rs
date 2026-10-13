@@ -1,0 +1,8 @@
+[package]
+name = "hackgu-ccs"
+description = "CyberConnect2 CCS/CCSF container parser, texture decoder, and model extractor for .hack//G.U. Last Recode"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]

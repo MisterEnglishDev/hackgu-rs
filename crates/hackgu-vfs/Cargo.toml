@@ -1,0 +1,9 @@
+[package]
+name = "hackgu-vfs"
+description = "Virtual File System for .hack//G.U. Last Recode: layered archive mounting and modding engine"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+hackgu-cpk = { path = "../hackgu-cpk" }

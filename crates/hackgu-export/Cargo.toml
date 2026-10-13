@@ -1,0 +1,20 @@
+[package]
+name = "hackgu-export"
+description = "Batch glTF 2.0 (.glb) exporter and asset pipeline for .hack//G.U. Last Recode"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[lib]
+name = "hackgu_export"
+path = "src/lib.rs"
+
+[[bin]]
+name = "hackgu-export"
+path = "src/main.rs"
+
+[dependencies]
+hackgu-ccs = { path = "../hackgu-ccs" }
+hackgu-cpk = { path = "../hackgu-cpk" }
+hackgu-vfs = { path = "../hackgu-vfs" }
+image = { version = "0.25", default-features = false, features = ["png"] }

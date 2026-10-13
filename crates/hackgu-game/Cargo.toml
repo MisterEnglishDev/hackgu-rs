@@ -1,0 +1,13 @@
+[package]
+name = "hackgu-game"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+encoding_rs = "0.8.42"
+glam = { version = "0.29", features = ["serde"] }
+hackgu-ccs = { path = "../hackgu-ccs" }
+hackgu-world = { path = "../hackgu-world" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"

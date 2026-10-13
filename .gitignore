@@ -1,0 +1,65 @@
+# Rust build artifacts
+/target
+Cargo.lock.bk
+
+# Compiled binaries and debug symbols
+*.exe
+*.dll
+*.pdb
+*.obj
+*.o
+*.a
+*.lib
+
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Game data & extracted assets (NEVER COMMIT COPYRIGHTED DATA)
+/gamedata/
+/extracted/
+/saves/
+/assets/battle/
+*.cpk
+*.pak
+*.usm
+*.acb
+*.awb
+*.hca
+*.iso
+*.bin
+*.ccs
+*.cvm
+*.afs
+*.clt
+*.raw
+
+# Generated exports, captures, and video clips
+/exports/
+/tools/captures/
+/scratch_msg/
+/clips/
+reference_captures/
+gemini_out*/
+*.glb
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.mp4
+crash.log
+
+# Survey, reports, and local data dumps
+survey_report.txt
+*.csv
+
+
+# Game-derived data: generated on the player's machine by tools/extract_assets.py
+assets/dungeons/
+assets/events/
+game_dir.txt
+# Decompilation notes that quote the game (scripts, function lists): kept local only
+decomp/

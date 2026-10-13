@@ -1,0 +1,9 @@
+[package]
+name = "hackgu-world"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
+hackgu-ccs = { path = "../hackgu-ccs" }
+glam = "0.29"

@@ -1,0 +1,9 @@
+[package]
+name = "hackgu-survey"
+description = "Inventory a .hack//G.U. Last Recode install folder: file types, archive magics, entropy, engine hints"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+# Deliberately no dependencies: builds offline and keeps the first tool trivial to audit.
+[dependencies]

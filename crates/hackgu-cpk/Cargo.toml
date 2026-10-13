@@ -1,0 +1,8 @@
+[package]
+name = "hackgu-cpk"
+description = "CRI CPK archive reader, extractor, and CRILAYLA decompressor for .hack//G.U. Last Recode"
+edition.workspace = true
+version.workspace = true
+license.workspace = true
+
+[dependencies]
