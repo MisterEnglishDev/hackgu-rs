@@ -3,7 +3,7 @@ title .hack//G.U. - Asset Setup ^& Extractor
 cd /d "%~dp0"
 
 echo ======================================================================
-echo         .hack//G.U. Clean-Room Asset Setup (Bring Your Own Game)
+echo         .hack//G.U. Asset Setup (Bring Your Own Game)
 echo ======================================================================
 echo.
 echo TIP: You can drag and drop your Steam game folder, a .cpk archive,

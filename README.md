@@ -46,7 +46,10 @@ formats and different code. The extractor can copy the files off a PS2 `.iso`, b
 
 ### 3. Build & Run
 
-Launch the game executable directly:
+Double-click **`play_game.bat`**. It builds the game, then starts it.
+
+The **first build takes several minutes** (5-15 on most PCs) and keeps the CPU busy while Rust compiles everything;
+cargo shows its progress in the window. Later launches only rebuild what changed and start in seconds.
 ```cmd
 play_game.bat
 ```

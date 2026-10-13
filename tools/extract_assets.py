@@ -180,6 +180,7 @@ def extract_from_steam_folder(repo_root: Path, game_dir: Path):
         sys.exit(1)
 
     print(f"\nScanning for Last Recode CPKs in: {cpk_dir}")
+    print("[NOTE] The first archive takes a minute or two longer: the unpacking tool is compiled first.")
     missing = []
     for cpk_name, target_rel in LAST_RECODE_MAPPINGS:
         src_cpk = cpk_dir / cpk_name
@@ -221,7 +222,7 @@ def extract_from_iso(repo_root: Path, iso_path: Path):
 def main():
     repo_root = Path(__file__).resolve().parent.parent
     print("=" * 70)
-    print("      .hack//G.U. Clean-Room Asset Extractor (BYOG Setup)")
+    print("      .hack//G.U. Asset Extractor (BYOG Setup)")
     print("=" * 70)
     print("This utility pulls required game assets from your legitimately owned copy.")
     print("Zero copyrighted assets or binaries are distributed with this project.")
