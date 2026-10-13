@@ -109,7 +109,7 @@ cargo run --release -p hackgu-ccs -- dump-models <file.ccs> --out <dir>
 
 If you find this research and preservation effort valuable and would like to support ongoing development:
 
-* **[Patreon](https://patreon.com/your-patreon-link)** *(Community Tip Jar)*
+* **[Patreon](https://www.patreon.com/c/MisterEnglishDev)** *(Community Tip Jar)*
 * **Zero Paywalled Content**: All code, tools, documentation, and features are completely free and open-source on GitHub. Patreon contributions serve solely as voluntary support to offset compute/AI tooling subscriptions, reverse-engineering software, test hardware, and development time.
 
 ---
